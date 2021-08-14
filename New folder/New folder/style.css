@@ -1,0 +1,460 @@
+.post-card {
+    position: relative;
+}
+
+.img1{
+    display: block;
+    background: url(1.jpg) center no-repeat;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+
+
+.txt1{
+    color: white;
+}
+
+.inspire{
+    margin-top: 2rem;
+    margin-bottom: 1rem; 
+}
+
+.firstdiv{
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+
+.box-size {
+    width: 70px;
+    min-height: 70px;
+}
+
+
+
+
+
+/* .bg1 {background-color: rgba(255,255,255,0.9);} */
+
+.calender-box {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background-color: rgb(251,250,251);
+    margin-left: 1rem;
+    
+}
+
+@media(max-width:770px) {
+    .calender-box{
+        top:5px  !important;
+        left:3px;
+        position: absolute;
+    }
+}
+
+@media(max-width:400px) {
+    .calender-box{
+        top:5px  !important;
+        left:3px;
+        position: absolute;
+    }
+}
+
+.calender-box-date {
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 1.1;
+    color: grey;
+    display: flex;
+    padding: 2px 0px;
+    justify-content: center;
+}
+
+
+ 
+
+.foryear {
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.833333;
+    color: grey;
+    display: flex;
+    padding: 2px 0px;
+    justify-content: center;
+}
+
+.baby4{
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.833333;
+    color: grey;
+    display: flex;
+    padding: 2px 0px;
+    justify-content: center;
+}
+    
+
+/* .line{
+    display: flex;
+    margin-left: 1rem;
+} */
+
+
+/* .comments{
+    display: flex;
+    margin-left: 2px;
+    background-color: crimson;
+} */
+
+.inner{
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+   
+}
+
+.inner2{
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+   
+}
+
+/* .pix2 img{
+    -webkit-transition: transform 0.9s ease;
+    transition: transform 0.9s ease;
+} */
+/* 
+.pix2:hover img{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+} */
+
+
+.pix2:hover {
+    transform: scale(1.07, 1.07);
+}
+
+.pix2{
+    transition: 1200ms;
+   
+}
+
+
+.a1{
+    
+    color: #333333;
+    text-decoration: none;
+}
+
+.span2{
+  float: left;
+  margin-left: 3px;
+  
+}
+
+.span3{
+    float: left;
+    margin-left: 5px;
+}
+
+.span4{
+    float: left;
+    margin-left: 9px;
+}
+
+
+.span2, .span3, .span4, .span5{
+     font-size: 14px;
+     color: #333333;
+}
+
+.continue{
+    float: right;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.click:hover{
+    color:rgb(113, 127, 224); 
+}
+
+.input1{
+    border-radius: 4px;
+}
+
+
+.pagination1{
+    display: flex;
+    margin-top: 14rem;
+    
+ 
+
+}
+
+
+.btn1{
+    background-color: none;
+    padding: none;
+    margin: none;
+    border: none;
+    background-color: none;
+} 
+
+
+.btn-search{
+    /* display: flex;
+    margin-left: 3rem; */
+    background-color: none;
+    border: none;
+
+}
+
+.categories{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.table{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: -7rem;
+    width: 10%;
+   
+}
+
+.tbody{
+    background-color: grey;
+}
+
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+
+.pos-relative {
+position: relative;
+}
+
+.of-hidden {
+overflow: hidden;}
+
+/* .stext-103 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    line-height: 1.466667;
+}
+
+
+.btn2{
+   border: none;
+   background-color: transparent;
+}
+
+.search1{
+    width: 280px;
+    height: 50px;
+    background-color: turquoise;
+    border-radius: 30px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.search2{
+    display: flex;
+    width: 200px;
+    border: transparent;
+    padding:0px 55px 0px 28px;
+    align-items: center;
+    background-color: violet;
+    
+}
+
+.icon-search1{
+    display: flex;
+    margin-left: 14rem;
+    
+
+} */
+
+
+/* .side-menu{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+ 
+
+.search1{
+
+	width: 250px;
+	height: 40px;
+	background-color: rgb(34, 23, 190);
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	/* padding: 20px; */
+    border: 1rem;
+    margin-top: 2rem;
+    /* margin-left: 1rem; */
+
+
+}
+
+
+
+.search1> input{
+
+	flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+
+
+}
+
+.outline{
+  border: 1px solid #979797;
+  border-radius: 25px;
+}
+
+.of-hidden {
+    overflow: hidden;
+}
+
+.pos-relative {
+position: relative;
+}
+
+.text1{
+
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 15px;
+ line-height: 1.466667;
+ padding: 8px;
+    
+}
+
+.plh4:-ms-input-placeholder { 
+    
+color: #888;
+}
+
+.size-122 {
+    width: 55px;
+    height: 100%;
+}
+
+.cl4 {color: #999;}
+
+.trans-04 {
+	-webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.colo{
+    background-color: transparent;
+}
+
+@media(max-width:770px) {
+   .search1{
+       width: 100%;
+   }
+}
+  
+@media(max-width:768px) {
+    .search1{
+        border-radius: 22px;
+        
+    }
+
+    .in{
+        width: 80%;
+    }
+}
+
+
+@media(max-width:823px) {
+    
+  .search1{
+      width: 100%;
+  }
+    
+  .in{
+    width: 80%;
+ }
+}
+
+
+.topline{
+    border-top: 1px solid grey;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+
+}
+
+/* .topline:last-child{
+
+ border-top: 1px solid grey;
+} */
+  
+
+.text2{
+    line-height: 1.333;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.p-b-33, .p-tb-33, .p-all-33 {
+    
+padding-bottom: 33px;
+margin-left: 1rem ;
+} 
+
+.a2{
+    font-size: 20px;
+    text-decoration: none;
+    color:#999999;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.text3{
+    line-height: 1.333;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@media(max-width:768px) {
+    .search1{
+        margin-right: 10px;
+        
+    }
+
+}
